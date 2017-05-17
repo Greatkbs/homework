@@ -1,0 +1,65 @@
+@charset "utf-8";
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+.wrapper{
+    background: yellow;
+    position: relative;
+}
+.wrapper div{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background: silver;
+    position: absolute;
+}
+
+/* 왼쪽 이동 */
+.left-1{
+    right: 200px;
+}
+.left-2{
+    right: 400px;
+}
+.left-3{
+    right: 600px;
+}
+
+/* 오른쪽 이동 */
+.right-1{
+    left: 200px;
+}
+.right-2{
+    left: 400px;
+}
+.right-3{
+    left: 600px;
+}
+
+/* 위쪽 이동 */
+.up-1{
+    bottom: 200px;
+}
+.up-2{
+    bottom: 400px;
+}
+.up-3{
+    bottom: 600px;
+}
+
+/* 아래쪽 이동 */
+.down-1{
+    top: 200px;
+}
+.down-2{
+    top: 400px;
+}
+.down-3{
+    top: 600px;
+}
